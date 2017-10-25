@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<tcoa-app>
+    <services>
+        <service id="captcha" version = "1.0.0" class="" port="8090">
+            <worker-thread-pool core-size="20" max-size="20" queueSize="10000"/>
+        </service>
+    </services>
+</tcoa-app>
